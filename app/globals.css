@@ -19,3 +19,15 @@ body {
   background: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.responsive-logo {
+  width: 64px;
+  height: 64px;
+}
+
+@media (min-width: 1024px) {
+  .responsive-logo {
+    width: 128px;
+    height: 128px;
+  }
+}

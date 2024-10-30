@@ -47,7 +47,7 @@ const Furniture = () => {
     <div className="relative min-h-screen">
       <div
         className={classNames(
-          "fixed  lg:top-24 top-20 bg-cover bg-center bg-no-repeat min-h-screen w-full"
+          "fixed  lg:top-20 top-20 bg-cover bg-center bg-no-repeat min-h-screen w-full"
         )}
         style={{
           backgroundImage: `url('${
