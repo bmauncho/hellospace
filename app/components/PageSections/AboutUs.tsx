@@ -1,19 +1,11 @@
 "use client";
 import classNames from "classnames";
-import { Libre_Baskerville } from "next/font/google";
 import React from "react";
 import Image from "next/image";
 import useFonts from "@/app/hooks/useFonts";
 
 const AboutUs = () => {
-  const {
-    libreBaskervilleItalic,
-    libreBaskervilleBoldItalic,
-    libreBaskervilleBold,
-    libreBaskervilleNormal,
-    poppins,
-    baskervville,
-  } = useFonts();
+  const { libreBaskervilleBold, libreBaskervilleNormal } = useFonts();
   return (
     <div className="flex justify-center items-center min-h-screen bg-[#e6cac4] px-4 md:px-12 lg:px-32 xl:px-64">
       <div className="flex flex-col my-6 md:flex-row items-center md:space-x-6 space-y-6 md:space-y-0">
