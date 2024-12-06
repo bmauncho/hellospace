@@ -24,6 +24,10 @@ const config: Config = {
       },
     },
     screens: {
+      "custom-380": "380px",
+
+      "custom-430": "430px",
+
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 

@@ -60,7 +60,7 @@ const Furniture = () => {
       ></div>
       <div className="flex lg:justify-end lg:items-end">
         {/*founder 1*/}
-        <div className="absolute top-0 right-24 sm:px-6 md:right-0 space-y-6 transform translate-x-40 lg:translate-x-0 -translate-y-1/3 md:-translate-y-1/3 z-2">
+        <div className="absolute top-0 right-24 sm:px-0 md:right-0 space-y-6 max-md:translate-x-12 -translate-y-1/3 max-custom-380:-translate-y-32 max-custom-430:-translate-y-40 min-sm:-translate-y-32 md:-translate-y-32 lg:-translate-y-36  z-2">
           <div className="flex flex-col justify-center items-start space-y-6 p-12 max-sm:p-0 mr-12 lg:p-6 md:mr-36 min-h-screen mt-0 mb-6">
             <div className="flex">
               <Image

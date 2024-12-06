@@ -17,9 +17,9 @@ const Projects = () => {
     md: "/images/fixedBg.png", // Medium screens and above
   };
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen ">
       <div
-        className="fixed top-0 left-0 w-full h-full"
+        className={"fixed top-0 left-0 right-0 max-w-full h-full"}
         style={{
           backgroundImage: `url('${
             isSmallScreen ? backgroundImage.md : backgroundImage.default
